@@ -3,6 +3,7 @@ Description :
 2. ImageCache.java saves 10 most recently used images.
 3. Get method searches for images in memory, if not found return null (cache miss). It does  not get images from the network as it has to be fast. Cache miss handling can be done at the application level as per the requirement of the application
 4. This cache emphasises on high speed get requests. Also, it is assumed that server can cater to any number of requests and if the requests exceed the capacity of the server they might not be served
+5. LoadTest.java can be run to test the working of this cache
 
 
 Enhancements :
